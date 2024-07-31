@@ -19,9 +19,9 @@ export const Cliente = connection.define("cliente", {
         unique: true
     }
 });
-Cliente.hasOne(Endereco);
+Cliente.hasOne(Endereco, { onDelete: "CASCADE"});
 Endereco.belongsTo(Cliente); //gera uma chave estrangeira na tabela endereços
-Cliente.hasMany(Pet);
+Cliente.hasMany(Pet, {onDelete: "CASCADE"});
 Pet.belongsTo(Cliente);
 
 
