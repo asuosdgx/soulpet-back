@@ -1,0 +1,7 @@
+CORS - CROSS ORIGIN RESOURCES SHARING (POLÍTICA DOS NAVEGADORES).
+- MECANISNO QUE IMPEDE QUE QUALUER ORIGEM ACESSE OS DADOS.
+axios > cliente http que possuios métodos (get, post)
+
+ bibliotecas de chamadas http entre back e front.
+
+src>api> cliente.js   > Arquivo que guarda as funções de interação entre back e front

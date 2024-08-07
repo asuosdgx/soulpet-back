@@ -24,4 +24,3 @@ Endereco.belongsTo(Cliente); //gera uma chave estrangeira na tabela endereços
 Cliente.hasMany(Pet, {onDelete: "CASCADE"});
 Pet.belongsTo(Cliente);
 
-
